@@ -1,0 +1,49 @@
+name: xjf_flutter_project
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  #数据存储
+  shared_preferences: ^2.2.0
+  #引导页
+  intro_slider: ^4.2.1
+  #列表插件
+  flutter_slidable: ^4.0.0
+  #网络请求框架
+  dio: ^4.0.0
+  #web展示
+  webview_flutter: ^4.13.0
+  #轮播控件
+  flutter_swiper_null_safety: ^1.0.2
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/launch.png
+    - images/ic_empty.png
+    - images/ic_error.png
+    - images/load_error_view.png
+    - images/1.jpeg
+    - images/2.jpeg
+    - images/3.jpeg
