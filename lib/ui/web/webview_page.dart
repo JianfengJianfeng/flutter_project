@@ -46,7 +46,6 @@ class WebViewPageState extends State<WebViewPage> {
       ..loadRequest(Uri.parse(widget.url));
   }
 
-
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
