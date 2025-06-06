@@ -21,3 +21,5 @@ Tools • Dart 3.8.1 • DevTools 2.45.1
   #轮播控件
   flutter_swiper_null_safety: ^1.0.2
 ```
+
+![功能演示](./screensource/demo.gif)
